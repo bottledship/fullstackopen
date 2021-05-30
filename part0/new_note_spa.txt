@@ -1,0 +1,7 @@
+title Saving note (SPA)
+
+note over browser: browser rerender the notes list on the page.
+browser -> server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note over server: server adds the entry the notes array.
+server -> browser: 201 Created
+

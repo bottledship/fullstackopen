@@ -1,0 +1,21 @@
+title Viewing note (SPA)
+
+browser -> server: GET https://studies.cs.helsinki.fi/exampleapp/spa
+server -> browser: Page in HTML
+browser -> server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server -> browser: CSS code
+browser -> server: GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+server -> browser: spa.js
+
+note over browser: 
+browser executes spa.js;
+requests data.json
+from the server 
+end note 
+
+browser -> server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server -> browser: data.json
+
+note over browser:
+browser runs the event handler
+and populate the page with notes.
