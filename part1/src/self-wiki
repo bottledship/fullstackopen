@@ -1,0 +1,22 @@
+self-wiki
+
+1. Permission for .sh file 
+    - chmod -x <file_name>
+
+2. Set $PATH    
+    - using ~/.zshrc
+    - export PATH="<directory>/bin:$PATH"
+    - for example: 
+    export PATH="/Users/jameskomol/scripts/bin:$PATH"
+
+3. How do I start programming?
+= 
+Exhibit A) The very basics.
+    If you've never programmed before. Then I highly recommend either
+    JavaScript or Python. There are websites that lets you write and run these
+    languages online without installing and setting up an IDE.
+
+    recommended resources:
+    - http://jsforcats.com/
+    - https://greenteapress.com/wp/think-python-2e/
+    
