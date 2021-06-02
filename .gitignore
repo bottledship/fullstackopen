@@ -1,4 +1,4 @@
 .DS_Store
-/part0/.DS_Store
-/part1/handsons/node_modules
-/part1/courseinfo/node_modules
+part0/.DS_Store
+part1/handsons/node_modules/
+part1/courseinfo/node_modules/
