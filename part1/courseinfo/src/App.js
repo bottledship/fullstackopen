@@ -1,6 +1,8 @@
 import React from 'react'
 
-const App = () => {
+const App = () => { 
+  const [clock, setClock] = React.useState("")
+  setInterval(() => setClock(new Date().toTimeString()))
 
   const course = {
     name: 'Half Stack application development',
@@ -21,6 +23,7 @@ const App = () => {
 
   return (
     <div>
+      {clock}
       <Header course={course.name} />
       <Content parts={course.parts}
       />
