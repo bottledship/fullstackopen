@@ -2,7 +2,7 @@ import React from 'react'
 
 const App = () => { 
   const [clock, setClock] = React.useState("")
-  setInterval(() => setClock(new Date().toTimeString()))
+  setTimeout(() => setClock(new Date().toTimeString()))
 
   const course = {
     name: 'Half Stack application development',
@@ -59,7 +59,7 @@ const Part = (props) => {
 const Total = (props) => {
   const totalExercises = props.parts[0].exercises + props.parts[1].exercises + props.parts[2].exercises
   return (
-    <p>Number of half-stack exercises {totalExercises}</p>
+    <p>Number of exercises {totalExercises}</p>
   )
 }
 
